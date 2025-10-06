@@ -1,25 +1,25 @@
 # projeto-padaria
-Sistema Padaria Mongo
+🥐 Sistema Padaria Mongo
 
-Sistema de gerenciamento para padarias utilizando MongoDB, desenvolvido em Java com Spring Boot.
+Sistema de gerenciamento para padarias, desenvolvido em Java com Spring Boot e MongoDB.
 
 🚀 Tecnologias Utilizadas
 
-Java: Linguagem de programação principal.
+Java – Linguagem de programação principal
 
-Spring Boot: Framework para construção de aplicações Java.
+Spring Boot – Framework para construção de aplicações Java modernas
 
-MongoDB: Banco de dados NoSQL utilizado para armazenamento de dados.
+MongoDB – Banco de dados NoSQL utilizado para armazenamento de dados
 
-Maven: Gerenciador de dependências e automação de builds.
+Maven – Gerenciador de dependências e automação de builds
 
-Docker: Contêineres para facilitar o desenvolvimento e implantação.
+Docker – Contêineres para facilitar o desenvolvimento e implantação
 
-👩‍💻 Autora
+👩‍💻 Autoras
 
-Kelly Oliveira
-Raquel Fernandes
-Jucelaine Teles
+ - Kelly Oliveira
+ - Raquel Fernandes
+ - Jucelaine Teles
 
 📦 Pré-requisitos
 
@@ -37,25 +37,34 @@ MongoDB (ou utilize o Docker para rodar o MongoDB)
 
 Clone este repositório:
 
-git clone https://github.com/kellyoliveira473/Sistema-Padaria-Mongo.git cd Sistema-Padaria-Mongo
+git clone https://github.com/kellyoliveira473/Sistema-Padaria-Mongo.git
+cd Sistema-Padaria-Mongo
+
 
 Compile o projeto:
 
 ./mvnw clean install
 
-Inicie o MongoDB (caso não tenha o MongoDB instalado localmente, você pode utilizar o Docker):
+
+Inicie o MongoDB:
+
+Caso não tenha o MongoDB instalado localmente, execute via Docker:
 
 docker run --name mongodb -d -p 27017:27017 mongo
+
 
 Execute a aplicação:
 
 ./mvnw spring-boot:run
 
-A aplicação estará disponível em http://localhost:8080 .
+
+A aplicação estará disponível em:
+👉 http://localhost:8080
 
 🔧 Endpoints Disponíveis
 
-Observação: Os endpoints exatos não estão documentados no repositório. Recomenda-se verificar o código-fonte para detalhes sobre os endpoints disponíveis.
+Os endpoints exatos não estão documentados no repositório.
+Recomenda-se verificar o código-fonte para obter detalhes sobre as rotas disponíveis.
 
 🧪 Testes
 
@@ -63,8 +72,19 @@ Para rodar os testes automatizados:
 
 ./mvnw test
 
-🧱 Estrutura de Pastas ├── .mvn/ # Wrapper do Maven ├── src/ # Código-fonte da aplicação │ ├── main/ │ │ ├── java/ # Código Java │ │ └── resources/ # Arquivos de configuração ├── .gitignore # Arquivos a serem ignorados pelo Git ├── Dockerfile # Arquivo para construção da imagem Docker ├── mvnw # Wrapper do Maven para Linux/Mac ├── mvnw.cmd # Wrapper do Maven para Windows └── pom.xml # Arquivo de configuração do Maven
+🧱 Estrutura de Pastas
+├── .mvn/              # Wrapper do Maven
+├── src/               # Código-fonte da aplicação
+│   ├── main/
+│   │   ├── java/      # Código Java
+│   │   └── resources/ # Arquivos de configuração
+├── .gitignore         # Arquivos a serem ignorados pelo Git
+├── Dockerfile         # Arquivo para construção da imagem Docker
+├── mvnw               # Wrapper do Maven para Linux/Mac
+├── mvnw.cmd           # Wrapper do Maven para Windows
+└── pom.xml            # Arquivo de configuração do Maven
 
 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Este projeto está licenciado sob a Licença MIT – veja o arquivo LICENSE
+ para mais detalhes.
